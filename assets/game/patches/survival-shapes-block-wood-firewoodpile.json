@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups",
+    "value": [
+      {
+        "loadFromProperties": "block/wood"
+      }
+    ],
+    "file": "shapes/block/wood/firewoodpile.json"
+  },
+  {
+    "op": "replace",
+    "path": "/textures/front",
+    "value": "wood/firewood/{wood}/front",
+    "file": "shapes/block/wood/firewoodpile.json"
+  },
+  {
+    "op": "replace",
+    "path": "/textures/side",
+    "value": "wood/firewood/{wood}/side",
+    "file": "shapes/block/wood/firewoodpile.json"
+  }
+]

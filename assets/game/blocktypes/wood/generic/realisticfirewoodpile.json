@@ -1,0 +1,56 @@
+{
+	code: "realisticfirewoodpiles",
+	class: "BlockFirewoodPile",
+	entityClass: "FirewoodPile",
+	variantgroups: [
+		{ code: "type", states: [ "acacia", "birch", "kapok", "maple", "oak", "pine" ] },
+	],
+	shape: {
+		base: "block/basic/invisible"
+	},
+	texturesbytype: {
+		"*-acacia": {
+			"front": { base: "block/wood/firewood/acacia/front" },
+			"side": { base: "block/wood/firewood/acacia/side" }
+		},
+		"*-birch": {
+			"front": { base: "block/wood/firewood/birch/front" },
+			"side": { base: "block/wood/firewood/birch/side" }
+		},
+		"*-kapok": {
+			"front": { base: "block/wood/firewood/kapok/front" },
+			"side": { base: "block/wood/firewood/kapok/side" }
+		},
+		"*-maple": {
+			"front": { base: "block/wood/firewood/maple/front" },
+			"side": { base: "block/wood/firewood/maple/side" }
+		},
+		"*-oak": {
+			"front": { base: "block/wood/firewood/oak/front" },
+			"side": { base: "block/wood/firewood/oak/side" }
+		},
+		"*-pine": {
+			"front": { base: "block/wood/firewood/pine/front" },
+			"side": { base: "block/wood/firewood/pine/side" }
+		},
+	},
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Wood",
+	creativeinventory: { "general": [""] },
+	replaceable: 400,
+	resistance: 3,
+	lightAbsorption: 0,
+	materialDensity: 600,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 35,
+	},
+	sounds: {
+		"place": "block/planks",
+		"hit": "block/planks",
+		"break": "block/planks",
+		"walk": "walk/wood"
+	},
+
+}
