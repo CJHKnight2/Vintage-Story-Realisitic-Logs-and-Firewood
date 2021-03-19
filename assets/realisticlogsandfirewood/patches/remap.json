@@ -1,0 +1,10 @@
+[
+  {
+    "file": "game:config/remaps.json",
+    "op": "add",
+    "path": "/realisticlogsandfirewood:realisticlogsandfirewood",
+    "value": [
+    "/iir remapq MODNAME:firewood-oak game:firewood force", 
+    ]
+  }
+]
