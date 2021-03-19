@@ -1,0 +1,31 @@
+{
+	code: "firewoodpile-birch",
+	class: "BlockFirewoodPile",
+	entityClass: "FirewoodPile",
+	shape: {
+		base: "block/basic/invisible"
+	},
+	textures: {
+		"front": { base: "block/wood/firewood/frontbirch" },
+		"side": { base: "block/wood/firewood/sidebirch" }
+	},
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Wood",
+	creativeinventory: { "general": [""] },
+	replaceable: 400,
+	resistance: 3,
+	lightAbsorption: 0,
+	materialDensity: 600,
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 2496,
+	},
+	sounds: {
+		"place": "block/planks",
+		"hit": "block/planks",
+		"break": "block/planks",
+		"walk": "walk/wood"
+	},
+
+}

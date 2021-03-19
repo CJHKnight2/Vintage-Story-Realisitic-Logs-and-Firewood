@@ -1,0 +1,29 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "shapes/block/wood/firewoodpile.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-type": {
+        "front": "block/wood/firewood/{wood}/front",
+        "side": "block/wood/firewood/{wood}/side"
+      }
+    },
+    "file": "shapes/block/wood/firewoodpile.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups",
+    "value": [
+      {
+        "code": "type",
+        "loadFromProperties": "block/wood"
+      },
+    ],
+    "file": "shapes/block/wood/firewoodpile.json"
+  }
+]
