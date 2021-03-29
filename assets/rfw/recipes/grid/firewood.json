@@ -1,0 +1,24 @@
+ [
+    {
+        ingredientPattern: "A,L",
+        ingredients: {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "L": { type: "block", code: "game:log-placed-*-ud", allowedVariants: ["acacia", "birch", "aged"], name: "type" }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "item", code: "rfw:firewood-{type}", quantity: 3  }
+    },
+
+    {
+        ingredientPattern: "A,L",
+        ingredients: {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "L": { type: "block", code: "game:log-placed-*-ud", allowedVariants: ["kapok", "maple", "oak", "pine"], name: "type" }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "item", code: "rfw:firewood-{type}", quantity: 4  }
+    }
+
+] 

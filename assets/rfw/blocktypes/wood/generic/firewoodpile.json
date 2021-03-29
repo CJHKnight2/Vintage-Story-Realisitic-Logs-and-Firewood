@@ -1,0 +1,86 @@
+{
+	code: "firewoodpile",
+	class: "BlockFirewoodPile",
+	entityClass: "FirewoodPile",
+	variantgroups: [
+	{ code: "type", states: ["aged"], loadFromProperties: "game:block/wood" },
+	],
+	shape: {
+		base: "game:block/basic/invisible"
+	},
+	texturesByType: {
+		"*-acacia": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-aged": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-birch": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-kapok": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-maple": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-oak": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+		"*-pine": {
+			"front": { base: "rfw:block/wood/firewood/{type}/front" },
+			"side": { base: "rfw:block/wood/firewood/{type}/side" }
+		},
+	},
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Wood",
+	creativeinventory: { "general": [""], "rfw": [""] },
+	replaceable: 400,
+	resistance: 3,
+	lightAbsorption: 0,
+	materialDensity: 600,
+	combustiblePropsByType: {
+		"*-acacia": {
+			burnTemperature: 450,
+			burnDuration: 89,
+		},
+		"*-pine": {
+			burnTemperature: 350,
+			burnDuration: 60,
+		},
+		"*-kapok": {
+			burnTemperature: 500,
+			burnDuration: 47,
+		},
+		"*-maple": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"*-oak": {
+			burnTemperature: 900,
+			burnDuration: 98,
+		},
+		"*-birch": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"*-aged": {
+			burnTemperature: 1050,
+			burnDuration: 100,
+		},
+	},
+	sounds: {
+		"place": "block/planks",
+		"hit": "block/planks",
+		"break": "block/planks",
+		"walk": "walk/wood"
+	},
+
+}

@@ -1,0 +1,27 @@
+{
+    "game:tabname-rfw": "Realistic Logs",
+    "game:rfw-quickstart-title": "Realistic Logs and Firewood: Quick Start Guide",
+    "game:rfw-quickstart-text": "<strong>Realistic Logs and Firewood: Quick Start Guide</strong><br><br>Updated versions of this mod and additional documentation can be found <a href=\"https://www.vintagestory.at/forums/topic/2399-primitive-survival-traps-fishing-and-other-surprises/\">here</a>.<br><br><strong>Introduction</strong><br>This mod is intended to replace normal firewood logs with more relistic burn times and tempertures and texture the logs per the tree type.<br><br><strong>Known issues:</strong><br>As of release v0.0.2, texturing of firewood piles is not yet possible due to coding issues.<br><br>To use the firewood, first build a <a href=\"handbook://block-firepit-lit\">firepit</a>.<br>For heat, you can build a firepit or place in a brazier (Requires the <a href=\"https://mods.vintagestory.at/show/mod/280Medieval/\">Medieval Expansion Mod</a> or the <a href=\"https://mods.vintagestory.at/show/mod/371/\">Braziers Mod</a>).<br><br><strong>Wood Types:</strong><br><a href=\"handbook://item-rfw:firewood-acacia\">Acacia Firewood</a><br>Acacia trees grow in almost any biomes. Acacia trees are small so you only get 3 firewood per log. Acacia is slow burning, but a moderate buring temperture of 450 C will preclude use for much other than basic cooking and warmth.<br><br><a href=\"handbook://item-rfw:firewood-aged\">Aged firewood</a><br>Aged firewood is one of the best firewoods for burning length and temperture. It burns at an average temperture of 1050 C, so is suitable form any uses such as clay mould baking and even smelting metals.<br><br><a href=\"handbook://item-rfw:firewood-birch\">Birch firewood</a><br>Birch trees are a small tree that grows in temperate biomes. Birch trees are small so you only get 3 firewood per log. Birch has a short burn time with a buring temperture of 800 C so is suitable for all normal cooking and clay mould firing.<br><br><a href=\"handbook://item-rfw:firewood-kapok\">Kapok firewood</a><br>Kapok trees grow mostly in jungle biomes. Thw kapok wood burns quickly and has a moderate buring temperture of 500 C making it suitable for all but clay mould firing.<br><br><a href=\"handbook://item-rfw:firewood-maple\">Maple firewood</a><br>Maple trees grow in temperate biomes. Maple wood burns long and has a burning temperture of 800 C making clay mould firing possible.<br><br><a href=\"handbook://item-rfw:firewood-oak\">Oak firewood</a><br>Oak trees grow in cool to warm biomes. Oak wood isknown for its strength and therefore has one of the longest burning durations and temperature of 900 C, making the smelting of some metals possible.<br><br><a href=\"handbook://item-rfw:firewood-pine\">Pine Firewood</a><br>Pine trees are mostly temperate to cold weather biome trees, but can be found in warmer cliemates as well. Pine firewood is soft and burns very quickly with a burning temperture of 350 C making it unsuitable for most uses but heat and most cooking.",
+
+	"item-firewood-acacia": "Acacia Firewood",
+    "itemdesc-firewood-acacia": "Acacia firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-aged": "Aged Firewood",
+    "itemdesc-firewood-aged": "Aged firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-birch": "Birch Firewood",
+    "itemdesc-firewood-birch": "Birch firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-kapok": "Kapok Firewood",
+    "itemdesc-firewood-kapok": "Kapok firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-maple": "Maple Firewood",
+    "itemdesc-firewood-maple": "Maple firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-oak": "Oak Firewood",
+    "itemdesc-firewood-oak": "Oak firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage.",
+
+	"item-firewood-pine": "Pine Firewood",
+    "itemdesc-firewood-pine": "Pine firewood log. Put into a firepit or brazier (Medevial Expansion Mod) for warmth or stack in a pile for storage."
+
+}

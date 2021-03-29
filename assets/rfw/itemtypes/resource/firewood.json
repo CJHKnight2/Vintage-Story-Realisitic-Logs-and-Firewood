@@ -1,0 +1,69 @@
+{
+	code: "firewood",
+	class: "ItemFirewood",
+	variantgroups: [
+		{ code: "type", states: ["aged"], loadFromProperties: "block/wood" },
+	],
+
+	maxstacksize: 32,
+	attributes: {
+		firepitConstructable: true
+	},
+	shape: { base: "game:item/firewood" },
+	textures: {
+		"0": { base: "rfw:block/wood/firewood/{type}/front" },
+		"1": { base: "rfw:block/wood/firewood/{type}/side" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "rfw": ["*"] },
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -22.5, y: -44.6875, z: 0 },
+		origin: { x: 0.5, y: 0.43, z: 0.51 },
+		scale: 1.45
+	},
+	combustiblePropsByType: {
+		"*-acacia": {
+			burnTemperature: 450,
+			burnDuration: 89,
+		},
+		"*-pine": {
+			burnTemperature: 350,
+			burnDuration: 60,
+		},
+		"*-kapok": {
+			burnTemperature: 500,
+			burnDuration: 47,
+		},
+		"*-maple": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"*-oak": {
+			burnTemperature: 900,
+			burnDuration: 98,
+		},
+		"*-birch": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"*-aged": {
+			burnTemperature: 1050,
+			burnDuration: 100,
+		},
+	},
+	materialDensity: 700,
+	fpHandTransform: {
+		translation: { x: 0.046875, y: -0.34375, z: 0 },
+		rotation: { x: 4, y: 15, z: 0 }
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.37, z: 0.5 },
+		scale: 2.54
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -1, z: -0.8 },
+		scale: 0.5
+	}
+}

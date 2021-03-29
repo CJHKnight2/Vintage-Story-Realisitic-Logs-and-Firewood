@@ -1,0 +1,23 @@
+{
+  "type": "content",
+  "modid": "rfw",
+  "name": "Realistic Logs and Firewood v0.0.2",
+  "description": "More realistic burn times for logs, firewood and firewood piles with textures for all tree types. Compatible with 1.14.7+",
+  "version": "0.0.2",
+  "networkversion": null,
+  "website": "",
+  "authors": [
+  "CJHKnight2"
+  ],
+  "contributors": [
+  "I33tmaan"
+  "Digitalr"
+  ],
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "side": "Universal",
+  "Dependencies": {
+	"game": "1.14.7",
+	"survival": "1.14.7"
+  }
+}
